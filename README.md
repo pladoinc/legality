@@ -18,8 +18,8 @@ of Legality. For more details, please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licensing
 
-All the documentation is licensed under [CC-0](data/LICENSE.md) to allow everybody to use it in
-whichever way they'd like.
+All the documentation is licensed under [CC-0](https://creativecommons.org/publicdomain/zero/1.0/)
+to allow everybody to use it in whichever way they'd like.
 
 All the code for Legality is under the [MIT license](LICENSE.md) for people to use it on their
 own websites.
