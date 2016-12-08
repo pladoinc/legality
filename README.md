@@ -1,6 +1,6 @@
 # Legality by PLADO
 
-Makes 📃  easier to understand without 🔍..
+Makes 📃  easier to understand without 🔍.
 
 ## What's this?
 
