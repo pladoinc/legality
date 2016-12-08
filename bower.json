@@ -1,0 +1,23 @@
+{
+  "name": "legality",
+  "authors": [
+    "Karim Alibhai <karim@alibhai.co>"
+  ],
+  "description": "Makes 📃 easier to understand without 🔍.",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "https://github.com/pladoinc/legality",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.9",
+    "angular-animate": "^1.5.9",
+    "angular-route": "^1.5.9"
+  }
+}
