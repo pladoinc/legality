@@ -1,4 +1,4 @@
-# Legality by PLADO
+# [Legality](http://docs.plado.ca/) by [PLADO](https://plado.ca/)
 
 Makes 📃  easier to understand without 🔍.
 
