@@ -192,6 +192,32 @@ section .doc-title h1 {
     font-weight: 300;
     font-size: 2rem;
     color: rgba(0,0,0,.5);
+
+    display: inline-block;
+    float: left;
+}
+
+section .doc-title .print {
+    opacity: .5;
+    display: inline-block;
+    float: right;
+
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+section .doc-title .print:hover {
+    opacity: .7;
+}
+
+section .doc-title .print img {
+    height: 30px;
+    width: auto;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
 }
 
 section .title {
