@@ -21,13 +21,8 @@
 }
 
 html {
-    font-size: 16px;
-}
-
-@media (min-width: 48em) {
-    html {
-        font-size: 20px;
-    }
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 html,
@@ -36,7 +31,11 @@ body {
     width: 100%;
 }
 
-body {
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+button, input, optgroup, select, textarea {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -118,6 +117,13 @@ body {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    font-size: .7rem;
+}
+
+.lang-select,
+.lang-select:focus,
+.lang-select:active {
+    outline: none;
 }
 
 .toc {
@@ -126,7 +132,7 @@ body {
 
 .toc h3 {
     font-size: 1.25rem;
-    padding: 1rem 0;
+    padding-bottom: 1rem;
     font-weight: 300;
 }
 
@@ -180,7 +186,9 @@ section {
 section .doc-title {
     background: #f7f7f9;
     padding: 1.5rem 1rem;
-    margin: 0;
+}
+
+section .doc-title h1 {
     font-weight: 300;
     font-size: 2rem;
     color: rgba(0,0,0,.5);
@@ -198,6 +206,11 @@ section .title {
 section .content {
     display: table;
     width: 100%;
+    font-weight: 300;
+}
+
+section .content strong {
+    font-weight: 400;
 }
 
 section .left,
