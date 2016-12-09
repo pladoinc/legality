@@ -1,6 +1,53 @@
 {
     "title": "Corporate By-law",
     "sections": [
-        ""
+        {
+            "title": "Definitions",
+            "content": [
+                {
+                    "text":    "In this by-law, unless the context otherwise requires:",
+                    "meaning": "Here's the meanings behind our fancy words:"
+                },
+                [
+                    "\"Act\" means the Not-for-Profit Corporations Act, 2010 (Ontario) and, where the context requires, includes the regulations made under it, as amended or re-enacted from time to time;",
+                    {
+                        "text":    "\"Board\" means the board of directors of the Corporation",
+                        "meaning": "\"Board\" means the awesome team of folks that make the magic happen at PLADO"
+                    },
+                    {
+                        "text": "\"By-laws\" means this by-law (including the schedules to this by-law) and all other by-laws of the Corporation as amended and which are, from time to time, in force",
+                        "meaning": "\"By-laws\" means this way-too-long document"
+                    },
+                    "\"Chair\" means the chair of the Board",
+                    {
+                        "text": "\"Corporation\" means the legal entity of PLADO Inc.",
+                        "meaning": "\"Corporation\" means us as a company"
+                    },
+                    {
+                        "text": "\"Director\" means an individual occupying the position of director of the Corporation by whatever name he or she is called",
+                        "meaning": "\"Director\" means a single awesome person from the Board"
+                    },
+                    {
+                        "text": "\"Donation\" means a benefit provided by a third-party for the use of the Corporation",
+                        "meaning": "\"Donation\" means money thrown at us"
+                    },
+                    {
+                        "text": "\"In-kind Donation\" means a Donation provided by a third-party for the use of the Corporation in the form of an unpaid good or service",
+                        "meaning": "\"In-kind Donation\" means free stuff thrown at us"
+                    },
+                    "\"Member\" means a member of the Corporation",
+                    "\"Members\" means the collective membership of the Corporation",
+                    "\"Officer\" means an officer of the Corporation which is defined as a President, Chair, secretary, treasurer, or Director",
+                    {
+                        "text": "\"President\" means an individual holding the office of the President of the Corporation by whatever name he or she is called",
+                        "meaning": "\"President\" means the guy or gal motivating the Board"
+                    },
+                    {
+                        "text": "\"Teacher\" means an individual occupying the position of teacher of the Corporation by whatever name he or she is called",
+                        "meaning": "\"Teacher\" means one of those geniuses that share their knowledge"
+                    }
+                ]
+            ]
+        }
     ]
 }
