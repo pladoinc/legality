@@ -1,0 +1,28 @@
+{
+  "name": "legality",
+  "version": "1.0.0",
+  "description": "Makes 📃 easier to understand without 🔍.",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pladoinc/legality.git"
+  },
+  "author": "Karim Alibhai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pladoinc/legality/issues"
+  },
+  "homepage": "https://github.com/pladoinc/legality#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.2.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "lite-server": "^2.2.2"
+  }
+}
