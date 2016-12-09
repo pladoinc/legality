@@ -1,0 +1,42 @@
+/**
+ * css/index.css - Legality by PLADO
+ *
+ * Licensed under MIT.
+ * Copyright (C) 2016 PLADO.
+ */
+
+ @media (max-width: 768px) {
+    .lang-select {
+        right: .2rem;
+        color: #fff;
+    }
+
+    .lang-select::before {
+        content: 'Language: ';
+        color: #fff;
+        display: block;
+    }
+
+    .toc {
+        padding: 2rem;
+    }
+
+    .toc .table ul {
+        display: block;
+    }
+
+    .toc .table ul:not(:first-child) {
+        padding-left: 0;
+    }
+
+    .toc .table ul > li {
+        font-size: 1rem;
+    }
+
+    section .left,
+    section .right {
+        width: 100%;
+        padding: 2rem 1.5rem;
+        display: table-cell;
+    }
+}
