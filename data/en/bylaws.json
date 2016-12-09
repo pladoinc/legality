@@ -18,7 +18,10 @@
                         "text": "\"By-laws\" means this by-law (including the schedules to this by-law) and all other by-laws of the Corporation as amended and which are, from time to time, in force",
                         "meaning": "\"By-laws\" means this way-too-long document"
                     },
-                    "\"Chair\" means the chair of the Board",
+                    {
+                        "text": "\"Chair\" means the chair of the Board",
+                        "meaning": "\"Chair\" means the guy or gal making sure things are always working"
+                    },
                     {
                         "text": "\"Corporation\" means the legal entity of PLADO Inc.",
                         "meaning": "\"Corporation\" means us as a company"
