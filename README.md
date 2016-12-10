@@ -16,6 +16,12 @@ could benefit from all that comes with the world of open source. We are looking 
 any and all contributions towards bettering our documentation as well as the code
 of Legality. For more details, please see the [Contribution Guide](CONTRIBUTING.md).
 
+## How can I help?
+
+To help out, check out any of the open bugs in the [issue tracker](https://github.com/pladoinc/legality/issues)
+or if you are multilingual, please help us [translate our documents](CONTRIBUTING.md#adding-a-new-language-to-the-documents)
+to more languages.
+
 ## Licensing
 
 All the legal documentation is licensed under the [Creative Commons Zero 1.0 License](https://creativecommons.org/publicdomain/zero/1.0/)
