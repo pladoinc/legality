@@ -124,6 +124,7 @@ button, input, optgroup, select, textarea {
 .lang-select:focus,
 .lang-select:active {
     outline: none;
+    border: solid 1px rgba(255,255,255,.5);
 }
 
 .toc {
@@ -174,7 +175,7 @@ button, input, optgroup, select, textarea {
     text-decoration: none;
 }
 
-.container {
+main {
     width: 100%;
 }
 
@@ -183,12 +184,12 @@ section {
     width: 100%;
 }
 
-section .doc-title {
+main .doc-title {
     background: #f7f7f9;
     padding: 1.5rem 1rem;
 }
 
-section .doc-title h1 {
+main .doc-title h1 {
     font-weight: 300;
     font-size: 2rem;
     color: rgba(0,0,0,.5);
@@ -197,7 +198,7 @@ section .doc-title h1 {
     float: left;
 }
 
-section .doc-title .print {
+main .doc-title .print {
     opacity: .5;
     display: inline-block;
     float: right;
@@ -206,11 +207,11 @@ section .doc-title .print {
     cursor: pointer;
 }
 
-section .doc-title .print:hover {
+main .doc-title .print:hover {
     opacity: .7;
 }
 
-section .doc-title .print img {
+main .doc-title .print img {
     height: 30px;
     width: auto;
 }
@@ -262,49 +263,49 @@ section .content ul > li {
     padding: .5rem 0;
 }
 
-.footer,
+footer,
 .toc ul {
     font-size: .8em;
 }
 
-.footer {
+footer {
     width: 100%;
     text-align: center;
 }
 
-.footer .pre {
+footer .pre {
     background: #5C6BC0;
     padding: 25px 50px;
 }
 
-.footer .content {
+footer .content {
     background: #3F51B5;
     padding: 75px 50px;
 }
 
-.footer .pre p,
-.footer .content p {
+footer .pre p,
+footer .content p {
     color: #fff;
 }
 
-.footer .content p {
+footer .content p {
     margin: 10px 0;
 }
 
-.footer .content a,
-.footer .content a:hover,
-.footer .content a:focus,
-.footer .content a:active {
+footer .content a,
+footer .content a:hover,
+footer .content a:focus,
+footer .content a:active {
     color: #fff;
     text-decoration: none;
 }
 
-.footer .content a {
+footer .content a {
     border-bottom: dotted 1px #fff;
 }
 
-.footer .content a:hover,
-.footer .content a:focus,
-.footer .content a:active {
+footer .content a:hover,
+footer .content a:focus,
+footer .content a:active {
     border-bottom: none;
 }
