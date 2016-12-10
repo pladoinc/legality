@@ -11,6 +11,18 @@ const gulp = require('gulp')
     , concat = require('gulp-concat')
     , imagemin = require('gulp-imagemin')
     , rename = require('gulp-rename')
+    , browserify = require('browserify')
+    , source = require('vinyl-source-stream')
+    , buffer = require('vinyl-buffer')
+
+gulp.task('compile:js', () =>
+    browserify('js/index.js').bundle()
+        .pipe(source('bundle.js'))
+        .pipe(buffer())
+        .pipe(sourcemaps.init())
+        .pipe(sourcemaps.write('./'))
+        .pipe(gulp.dest('js'))
+)
 
 gulp.task('compile:css', () =>
     gulp.src(['css/*.css', '!css/bundle.css'])
@@ -36,4 +48,4 @@ gulp.task('compress:jpg', () =>
 )
 
 gulp.task('compress:images', ['compress:png', 'compress:jpg'])
-gulp.task('default', ['compile:css', 'compress:images'])
+gulp.task('default', ['compile:js', 'compile:css', 'compress:images'])
