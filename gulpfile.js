@@ -17,15 +17,23 @@ const gulp = require('gulp')
 
 gulp.task('compile:js', () =>
     browserify('js/index.js').bundle()
-        .pipe(source('bundle.js'))
+        .pipe(source('app.js'))
         .pipe(buffer())
         .pipe(sourcemaps.init())
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('js'))
 )
 
+gulp.task('bundle:js', ['compile:js'], () =>
+    gulp.src(['vendor/angular/angular.min.js', 'vendor/angular-animate/angular-animate.min.js', 'vendor/angular-route/angular-route.min.js', 'js/app.js'])
+        .pipe(sourcemaps.init())
+        .pipe(concat('bundle.js'))
+        .pipe(sourcemaps.write('./'))
+        .pipe(gulp.dest('js'))
+)
+
 gulp.task('compile:css', () =>
-    gulp.src(['css/*.css', '!css/bundle.css'])
+    gulp.src(['vendor/normalize-css/normalize.css', 'css/*.css', '!css/bundle.css'])
         .pipe(sourcemaps.init())
         .pipe(clean())
         .pipe(concat('bundle.css'))
@@ -48,4 +56,4 @@ gulp.task('compress:jpg', () =>
 )
 
 gulp.task('compress:images', ['compress:png', 'compress:jpg'])
-gulp.task('default', ['compile:js', 'compile:css', 'compress:images'])
+gulp.task('default', ['bundle:js', 'compile:css', 'compress:images'])
