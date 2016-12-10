@@ -7,7 +7,7 @@ We just have a few guidelines we would like to follow when you make
 contributions. Please refer to this guide before making contributions
 so that we can ensure that the process of contributions runs smoothly.
 
-## Guidelines for Contributing to Legal Documents
+## Contributing to Legal Documents
 
 These guidelines apply towards all changes you'd like to make to any
 of the legal documents that are under the [`data`](data) folder.
@@ -23,6 +23,27 @@ of the legal documents that are under the [`data`](data) folder.
  * Please ensure that you use the proper command words that is appropriate
  for legal documents and that your changes are clear enough to be interpreted
  by anyone without extra context.
+
+### Adding a new language to the documents
+
+We welcome all translations for our documents as the purpose of this project is
+to ensure that everyone can understand the documents. But please follow these
+guidelines when submitting translations:
+
+ * Each language must have a folder of its own inside of the 'data' folder.
+ The folder must be two lower case characters that describes the language within
+ the folder using the [official language codes](http://reference.sitepoint.com/html/lang-codes).
+
+ * Please ensure that your contributions are only made to the files inside of
+ the respectful language folder. This helps avoid conflicting changes to files.
+
+ * Please only translate documents to languages that you are comfortable with.
+ We have no way to guarantee that all documents are aptly translated but we would
+ like to hold all translations up to a standard of quality.
+
+ * Please **do not** translate the legal document itself. Only the explainations should
+ be multilingual. The documents themselves are legally binding and will only be
+ written and enforced in Canadian English.
 
 ## Using the issue tracker
 
