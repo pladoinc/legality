@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Makes 📃 easier to understand without 🔍.",
   "scripts": {
-    "start": "lite-server"
+    "start": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/pladoinc/legality#readme",
   "dependencies": {
+    "browser-sync": "^2.18.2",
     "browserify": "^13.1.1",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.2.1",
@@ -24,7 +25,6 @@
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.9.1",
     "gulp-uglify": "^2.0.0",
-    "lite-server": "^2.2.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   }

@@ -14,6 +14,7 @@ const gulp = require('gulp')
     , browserify = require('browserify')
     , source = require('vinyl-source-stream')
     , buffer = require('vinyl-buffer')
+    , browserSync = require('browser-sync').create()
 
 gulp.task('compile:js', () =>
     browserify('js/index.js').bundle()
@@ -57,3 +58,14 @@ gulp.task('compress:jpg', () =>
 
 gulp.task('compress:images', ['compress:png', 'compress:jpg'])
 gulp.task('default', ['bundle:js', 'compile:css', 'compress:images'])
+
+gulp.task('watch', () => {
+    browserSync.init({
+        server: {
+            baseDir: './'
+        }
+    })
+
+    gulp.watch('js/**/*.js', ['bundle:js']).on('change', browserSync.reload)
+    gulp.watch('css/**/*.css', ['compile:css']).on('change', browserSync.reload)
+})
