@@ -14,12 +14,12 @@ avoid any confusion and misunderstanding about how we do things at PLADO.
 We wanted to develop Legality from the ground up as being open source so that we
 could benefit from all that comes with the world of open source. We are looking for
 any and all contributions towards bettering our documentation as well as the code
-of Legality. For more details, please see [CONTRIBUTING.md](CONTRIBUTING.md).
+of Legality. For more details, please see the [Contribution Guide](CONTRIBUTING.md).
 
 ## Licensing
 
-All the documentation is licensed under [CC-0](https://creativecommons.org/publicdomain/zero/1.0/)
+All the legal documentation is licensed under the [Creative Commons Zero 1.0 License](https://creativecommons.org/publicdomain/zero/1.0/)
 to allow everybody to use it in whichever way they'd like.
 
-All the code for Legality is under the [MIT license](LICENSE.md) for people to use it on their
+All the code is licensed under the [MIT license](LICENSE.md) for people to use it on their
 own websites.
